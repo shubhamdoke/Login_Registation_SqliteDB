@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My_kuchbhi</string>
+    <string name="enter_your_email_id">Enter your Email Id</string>
+    <string name="enter_your_mobile_no">Enter your mobile No</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="login">Login</string>
+</resources>

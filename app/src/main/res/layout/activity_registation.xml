@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".UI.Registation">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Registation"
+        android:textColor="#FF9A05"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_your_name" />
+
+    <EditText
+        android:id="@+id/umob"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_your_mobile_no" />
+
+    <EditText
+        android:id="@+id/uemail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_your_email_id" />
+    <EditText
+        android:id="@+id/upass"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="enter Password" />
+
+    <RadioGroup
+        android:id="@+id/groupradio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Gender"/>
+
+        <RadioButton
+            android:id="@+id/radio_id1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_id2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Female"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="20dp"
+        android:id="@+id/tv_bod"
+        android:gravity="center"
+        android:text="Tap to Select your BirthDate "/>
+
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sing_up" />
+
+    <TextView
+        android:id="@+id/goto_log"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Already have Account" />
+
+
+</LinearLayout>
